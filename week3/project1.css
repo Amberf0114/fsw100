@@ -1,0 +1,22 @@
+.Head {
+    color: darkgreen;
+}
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;
+}
+.parent > p {
+    background-color: red;
+}
+#upper {
+    text-transform: uppercase;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+.image {
+    float: left;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+.nav-bar {
+    font-size: 24;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed
+}
+.home {
+    position: relative;
+    left: 10px;
+}
+.articles {
+    position: relative;
+    left:400px;
+}
+.search {
+    position: relative;
+    left: 800px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+main {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body {
+    margin: 50px
+}
+img {
+    float: left;
+    padding: 15px;
+}
+.article1 {
+    padding: 70px;
+}
+.article2 {
+    padding:70px;
+}
+.article3 {
+    padding: 70px;
+}

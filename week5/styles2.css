@@ -1,0 +1,91 @@
+@media only screen and (max-width: 400px) {
+
+    #grid-container {
+        color: white;
+        display: grid;
+        grid-gap: 20px;
+        font-size: 27;
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        background-color: lightslategray;
+    }
+    .nav1 {
+        background-color: darkslategray;
+    }
+    main {
+        background-color: darkslategray;
+    }
+    .nav2 {
+        color: black;
+        background-color: lightgray;
+    }
+    footer {
+        background-color: lightslategray;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 750px) {
+   
+    #grid-container {
+        color: white;
+        display: grid;
+        grid-gap: 20px;
+        font-size: 40;
+        grid-template-columns: repeat(5,1fr) ;
+}
+
+header {
+    background-color: lightslategray;
+    grid-column: 1 / 6;
+}
+.nav1 {
+    background-color: darkslategray;
+    grid-column: 1 / 2;
+}
+main {
+    background-color: darkslategray;
+    grid-column: 2 / 6;
+}
+.nav2 {
+    color: black;
+    background-color: lightgray;
+    grid-column: 1 / 6;
+}
+footer {
+    background-color: lightslategray;
+    grid-column: 1 / 6;
+}
+}
+@media only screen and (min-width: 751px) {
+
+    #grid-container {
+        color: white;
+        display: grid;
+        grid-gap: 20px;
+        font-size: 47;
+        grid-template-columns: repeat(5,1fr);
+    }
+    
+    header {
+        background-color: lightslategray;
+        grid-column: 1 / 6;
+    }
+    .nav1 {
+        background-color: darkslategray;
+        grid-column: 1 / 2;
+    }
+    main {
+        background-color: darkslategray;
+        grid-column: 2 / 5;
+    }
+    .nav2 {
+        color: black;
+        background-color: #d3d3d3;
+        grid-column: 5 / 6;
+    }
+    footer {
+        background-color: lightslategray;
+        grid-column: 1 / 6;
+    }
+}

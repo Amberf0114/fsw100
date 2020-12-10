@@ -2,6 +2,7 @@
     font-size: 24;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed
+
 }
 .home {
     position: relative;
@@ -29,7 +30,6 @@ body {
 }
 img {
     float: left;
-    padding: 15px;
 }
 .article1 {
     padding: 70px;

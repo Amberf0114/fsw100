@@ -1,0 +1,71 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: mintcream;
+}
+#box1:hover {
+    background-color: rosybrown;
+    border: 50px solid black;
+}
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+#box2:hover {
+    background-color: red;
+    width: 1000px;
+}
+#box3 {
+    width: 200px;
+    height: 200px;
+    color: wheat;
+    text-align: center;
+    background-color: black;
+}
+#box3:hover {
+    height: 50px;
+    margin-left:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#box4 {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+#box4:hover {
+    width: 500px;
+    height: 500px;
+}
+#box5 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    background-color: palegoldenrod;
+    box-shadow: 10px 5px darkblue;
+}
+#box5:hover {
+    border: 6px solid hotpink;
+    box-shadow: 10px 10px crimson;
+}
+#box5 {
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    color: hotpink;
+}
+#box5:hover {
+    color: green;
+    box-shadow: 5px 20px purple;
+}
+#box6 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white
+}
+#box6:hover {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

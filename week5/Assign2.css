@@ -29,7 +29,7 @@
 #grid-container2 {
     font-size: 50px;
     display:grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,auto);
     grid-gap: 10px;
     margin-top: 100px;
 }
@@ -55,5 +55,6 @@
 }
 .object5 {
     background-color: dimgrey;
-    grid-column: 4 / 6;
+    grid-column: 4 / 5;
+    height: 200px;
 }

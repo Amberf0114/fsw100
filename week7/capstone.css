@@ -1,0 +1,176 @@
+@media only screen and (min-width:1000px) {
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .container {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(5,auto);
+        grid-template-areas: 
+        "A A A A A"
+        "B B B C C"
+        "B B B C C"
+        "D D D C C"
+        "D D D E E";
+    }
+    .A {
+        grid-area: A;
+        background-color: rgb(224, 212, 212);
+        margin: 0px;
+        padding: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+    }
+    .A a{
+        color: White;
+        font-weight: 400;
+        font-size: 30px;
+        text-decoration: none;
+        text-align: center;
+        flex: 100% 1 1;
+    }
+    .A a:hover {
+        color: rgb(100, 94, 94);
+    }
+
+    .B {
+        grid-area: B;
+        padding: 50px;
+        line-height: 50px;
+        font-size:22px
+    }
+    .B > h2 {
+        text-align: right;
+        color: rgb(167, 113, 167);
+        font-size: 20px;
+    }
+    .C {
+        grid-area: C;
+        position: relative;
+        padding: 40px;
+    }
+    .D {
+        grid-area: D;
+        text-align: center;
+        font-size: 22px;
+    }
+    .E {
+        grid-area: E;
+        font-weight: lighter;
+        font-size: 17px;
+        margin: 100px;
+        text-align: right;
+    }
+    .F1 {
+        color: rgb(167, 113, 167);
+        font-family: 'Marck Script', cursive;
+        font-size: 20px;
+
+    }
+    .F2 {
+        color: rgba(180, 172, 172, 10);
+    }
+
+    .H1 {
+        color: rgb(167, 113, 167);
+        font-family: 'Marck Script', cursive;
+        font-size: 60px;
+    }
+    .about1 {
+        font-size: 47px
+    }
+}
+
+
+@media only screen and (max-width:999px) {
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .container {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(5,auto);
+        grid-template-areas: 
+        "A A A A A"
+        "B B B C C"
+        "B B B C C"
+        "D D D C C"
+        "D D D E E";
+    }
+    .A {
+        grid-area: A;
+        background-color: rgb(224, 212, 212);
+        margin: 0px;
+        padding: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+    }
+    .A a{
+        color: White;
+        font-weight: 400;
+        font-size: 28px;
+        text-decoration: none;
+        text-align: center;
+        flex: 100% 1 1;
+    }
+    .A a:hover {
+        color: rgb(100, 94, 94);
+    }
+
+    .B {
+        grid-area: B;
+        padding: 35px;
+        line-height: 50px;
+        font-size:22px
+    }
+    .B > h2 {
+        text-align: right;
+        color: rgb(167, 113, 167);
+        font-size: 20px;
+    }
+    .C {
+        grid-area: C;
+        position: relative;
+        padding: 40px;
+        max-width: auto;
+    }
+    .D {
+        grid-area: D;
+        text-align: center;
+        font-size: 22px;
+    }
+    .E {
+        grid-area: E;
+        font-weight: lighter;
+        font-size: 17px;
+        margin: 100px;
+        text-align: right;
+    }
+    .F1 {
+        color: rgb(167, 113, 167);
+        font-family: 'Marck Script', cursive;
+        font-size: 20px;
+
+    }
+    .F2 {
+        color: rgba(180, 172, 172, 10);
+    }
+
+    .H1 {
+        color: rgb(167, 113, 167);
+        font-family: 'Marck Script', cursive;
+        font-size: 60px;
+    }
+    .about1 {
+        font-size: 47px
+}
+
+
